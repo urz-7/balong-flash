@@ -127,7 +127,6 @@ printf("\n The utility is designed for flashing modems on the Balong V7 chipset\
   }
 }  
 printf("--------------------------------------------------------------------------------------------------");
-//printf("\n Program for flashing devices on the Balong-chipset, V3.0.%i, (c) forth32, 2015, GNU GPLv3",BUILDNO);
 #ifdef WIN32
 printf("\n              Flasher by (c) urz7, 2018");
 #endif
