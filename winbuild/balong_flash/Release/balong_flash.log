@@ -1,0 +1,42 @@
+﻿Build started 5/17/2018 9:05:39 PM.
+     1>Project "D:\Project_VS2013\balong-flash-master\winbuild\balong_flash\balong_flash.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         echo #define BUILDNO \> D:\Project_VS2013\balong-flash-master\winbuild\balong_flash\buildno.h
+         type D:\Project_VS2013\balong-flash-master\winbuild\balong_flash\..\..\build >> D:\Project_VS2013\balong-flash-master\winbuild\balong_flash\buildno.h
+         :VCEnd
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Project_VS2013\balong-flash-master\winbuild\balong_flash\\" /I"D:\Project_VS2013\balong-flash-master\winbuild\balong_flash\..\zlib" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\balong_flash.c ..\..\flasher.c ..\..\signver.c ..\..\util.c
+         balong_flash.c
+         flasher.c
+         signver.c
+         util.c
+     1>..\..\util.c(38): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\util.c(41): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\util.c(46): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\util.c(138): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project_VS2013\balong-flash-master\winbuild\Release\balong_flash.exe" /INCREMENTAL:NO /NOLOGO setupapi.lib Ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /PDB:"D:\Project_VS2013\balong-flash-master\winbuild\Release\balong_flash.pdb" /SUBSYSTEM:CONSOLE,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project_VS2013\balong-flash-master\winbuild\Release\balong_flash.lib" /MACHINE:X86 /SAFESEH Release\balong_flash.obj
+         Release\flasher.obj
+         Release\hdlcio_win32.obj
+         Release\Alloc.obj
+         Release\LzmaDec.obj
+         Release\ptable.obj
+         Release\signver.obj
+         Release\util.obj
+         Release\adler32.obj
+         Release\crc32.obj
+         Release\inffast.obj
+         Release\inflate.obj
+         Release\inftrees.obj
+         Release\trees.obj
+         Release\uncompr.obj
+         Release\zutil.obj
+         Release\getopt.obj
+         Generating code
+         Finished generating code
+         balong_flash.vcxproj -> D:\Project_VS2013\balong-flash-master\winbuild\Release\balong_flash.exe
+     1>Done Building Project "D:\Project_VS2013\balong-flash-master\winbuild\balong_flash\balong_flash.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.45
